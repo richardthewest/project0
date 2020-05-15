@@ -1,7 +1,28 @@
 $main_colour: #ffb84d;
 $text_colour: #999;
 $background_colour: #ffffff;
+$footer_colour: #999;
 
+header li {
+	list-style-type: none;
+}
+
+p {
+	margin: 20px;
+}
+
+h3 {
+	text-align: center;
+}
+
+#active {
+	text-decoration: underline;
+}
+
+li a:hover:not(.active) {
+  background-color: $background_colour;
+  color: $main_colour;
+}
 
 table {
 	max-height: 80px;
@@ -24,7 +45,10 @@ table {
 	}
 }
 
-
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
 
 
 div {
@@ -55,8 +79,6 @@ div {
 
 
 
-
-
 %servicesImg {
 
 	.servicesImageLeft {
@@ -70,5 +92,31 @@ div {
 
 
 
+footer {
+	padding: 20px;
+	background-color: $footer_colour;
+	opacity: 0.3;
+}
+
+
+.col-sm-6 {
+	text-align: justify;
+}
+
+
+@media (min-width: 650px) {
+	.servicesImageLeft {
+		float: left;
+		max-height: 200px;
+	}
+	.servicesImageRight {
+		float: right;
+		max-height: 200px;
+	}
+	header.navBarTop nav ul li a {
+		font-size: 18px;
+		padding: 14px 16px;
+	}
+}
 
 
