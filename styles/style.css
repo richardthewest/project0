@@ -1,6 +1,15 @@
 header li {
   list-style-type: none; }
 
+header.navBarTop nav ul li a {
+  font-size: 14px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  color: #999;
+  margin: 2px;
+  padding: 10px 12px; }
+
 p {
   margin: 20px; }
 
@@ -15,6 +24,10 @@ li a:hover:not(.active) {
   color: #ffb84d; }
 
 table {
+  border-collapse: collapse;
+  width: 100%; }
+
+table {
   max-height: 80px;
   width: auto;
   display: block;
@@ -23,31 +36,23 @@ table {
   table td {
     padding-top: 100px;
     padding-bottom: 100px; }
-  table p {
-    padding: 20px; }
 
-table {
-  border-collapse: collapse;
-  width: 100%; }
+td p {
+  padding: 20px; }
 
-div {
-  color: #999; }
-  div .frontPageCaption {
-    padding: 300px 0px;
-    padding-bottom: 300px;
-    text-align: center;
-    font-size: 80px; }
-  div .boldText {
-    background: grey;
-    display: inline-block;
-    text-transform: capitalize; }
-  div header.navBarTop nav ul li a {
-    font-size: 14px;
-    float: left;
-    text-decoration: none;
-    text-align: center;
-    margin: 2px;
-    padding: 10px 12px; }
+div.frontPageCaption {
+  color: #999;
+  text-align: center;
+  font-size: 80px;
+  text-transform: capitalize; }
+  div.frontPageCaption .boldText {
+    color: #ffb84d;
+    background: #999;
+    display: inline-block; }
+
+.frontPageCaption {
+  padding: 300px 0px;
+  padding-bottom: 300px; }
 
 footer {
   padding: 20px;
