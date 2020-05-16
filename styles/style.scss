@@ -64,6 +64,7 @@ table {
 }
 
 td p {
+	@extend %text_style;
 	padding: 20px;
 }
 
@@ -101,9 +102,12 @@ div.frontPageCaption{
 
 
 footer {
+	@extend %text_style;
+	color: $background_colour;
 	padding: 20px;
 	background-color: $footer_colour;
 	opacity: 0.3;
+	display: block;
 }
 
 

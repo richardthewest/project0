@@ -1,4 +1,4 @@
-p {
+p, td p, footer {
   color: #999;
   font-size: 18px;
   font-family: Arial, Helvetica;
@@ -61,9 +61,11 @@ div.frontPageCaption {
   padding-bottom: 300px; }
 
 footer {
+  color: #ffffff;
   padding: 20px;
   background-color: #999;
-  opacity: 0.3; }
+  opacity: 0.3;
+  display: block; }
 
 .col-sm-6 {
   text-align: justify; }
