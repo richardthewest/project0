@@ -48,7 +48,6 @@ table {
 }
 
 table {
-	max-height: 80px;
 	width: auto;
 	display: block;
 	margin-left: auto;
@@ -83,7 +82,6 @@ div.frontPageCaption{
 
 .frontPageCaption {
 	padding: 300px 0px;
-	padding-bottom: 300px;
 }
 
 
@@ -118,7 +116,7 @@ footer {
 
 
 
-@media (min-width: 650px) {
+@media (min-width: 700px) {
 	.servicesImageLeft {
 		float: left;
 		max-height: 200px;

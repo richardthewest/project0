@@ -34,7 +34,6 @@ table {
   width: 100%; }
 
 table {
-  max-height: 80px;
   width: auto;
   display: block;
   margin-left: auto;
@@ -57,8 +56,7 @@ div.frontPageCaption {
     display: inline-block; }
 
 .frontPageCaption {
-  padding: 300px 0px;
-  padding-bottom: 300px; }
+  padding: 300px 0px; }
 
 footer {
   color: #ffffff;
@@ -70,7 +68,7 @@ footer {
 .col-sm-6 {
   text-align: justify; }
 
-@media (min-width: 650px) {
+@media (min-width: 700px) {
   .servicesImageLeft {
     float: left;
     max-height: 200px; }
